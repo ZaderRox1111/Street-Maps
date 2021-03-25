@@ -26,9 +26,6 @@ def main():
     #doing work on each line to make it easy to work with
     #then draws the line with the data gathered
     for line in data_lines:
-        #remove the '/n' at the end of the line
-        line = line[: (len(line) - 2)]
-        
         #split between each space in the lines
         line = line.split()
 
